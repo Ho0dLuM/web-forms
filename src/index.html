@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>Web Forms Practice</title>
+  </head>
+    <header>
+    </header>
+  <body>
+    <form class="container">
+      <label for="userName"><br>First and Last Name</label>
+      <input id="userName" class="form-control" type="text"><br>
+      <label for="userEmail">Email</label>
+      <input id="userEmail" class="form-control" type="email"><br>
+      <label for="password" type="password">Password</label>
+      <input id="password" class="form-control" type="password" minLength="5"><br>
+      <label for="telephone">Telephone</label>
+      <input id="telephone" class="form-control" type="telephoneNumber"><br>
+      <label for="age">Age</label>
+      <input id ="age" type="number" class="form-control" name="age" min="18" max="99"><br>
+      <label for="website">Website</label>
+      <input id="website" class="form-control" type="url"><br>
+      <label for="fileUpload">Upload File Here</label>
+      <input id="fileUpload" class="form-control" type="file"><br>
+      <label for="favColor">Favorite Color</label>
+      <input id="color" class="form-control" type="color"><br>
+      <label for="range">JS Confidence Level</label><br>
+      <input id="rangeSlider" class="form-control" type="range" min="0" max="10">
+      <label>Skills<br>
+        <input type="checkbox" id="git">Git
+        <input type="checkbox" id="HTML">HTML
+        <input type="checkbox" id="CSS">CSS
+        <input type="checkbox" id="JavaScript">JavaScript
+        <input type="checkbox" id="jQuery">jQuery
+        <input type="checkbox" id="iterm">iTerm2
+      </label><br>
+      <label for="textarea">Add Additional Comments<br>
+        <textarea type="text" class="form-control" rows="10" cols="50"></textarea><br>
+      <button class="btn btn-primary">Submit</button>
+    </form>
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
