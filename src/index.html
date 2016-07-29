@@ -12,34 +12,32 @@
     </header>
   <body>
     <form class="container">
-      <label for="userName"><br>First and Last Name</label>
-      <input id="userName" class="form-control" type="text"><br>
-      <label for="userEmail">Email</label>
-      <input id="userEmail" class="form-control" type="email"><br>
-      <label for="password" type="password">Password</label>
-      <input id="password" class="form-control" type="password" minLength="5"><br>
-      <label for="telephone">Telephone</label>
-      <input id="telephone" class="form-control" type="telephoneNumber"><br>
-      <label for="age">Age</label>
-      <input id ="age" type="number" class="form-control" name="age" min="18" max="99"><br>
-      <label for="website">Website</label>
-      <input id="website" class="form-control" type="url"><br>
-      <label for="fileUpload">Upload File Here</label>
-      <input id="fileUpload" class="form-control" type="file"><br>
-      <label for="favColor">Favorite Color</label>
-      <input id="color" class="form-control" type="color"><br>
-      <label for="range">JS Confidence Level</label><br>
-      <input id="rangeSlider" class="form-control" type="range" min="0" max="10">
-      <label>Skills<br>
-        <input type="checkbox" id="git">Git
-        <input type="checkbox" id="HTML">HTML
-        <input type="checkbox" id="CSS">CSS
-        <input type="checkbox" id="JavaScript">JavaScript
-        <input type="checkbox" id="jQuery">jQuery
-        <input type="checkbox" id="iterm">iTerm2
-      </label><br>
-      <label for="textarea">Add Additional Comments<br>
-        <textarea type="text" class="form-control" rows="10" cols="50"></textarea><br>
+      <label for="userName">Solution 1</label>
+      <input id="userName" class="form-control" type="text" placeholder="Disabled" disabled><br>
+      <label for="password" type="password">Solution 2</label>
+      <input class="form-control" placeholder="Solution 2: min='5'" min="5"><br>
+      <label for="text">Solution 3</label>
+      <input value="value='text that starts in the form input'" class="form-control">
+      <input class="form-control" placeholder="placeholder='text that disappears once the user starts typing'"><br>
+      <label for="text">Solution 4</label>
+      <input type="password" class="form-control" placeholder="type='password' changes the characters entered into an input field to circles"><br>
+      <label for="text">Solution 5</label>
+      <input class="form-control" placeholder="autofocus" autofocus><br>
+      <label for="text">Solution 6</label>
+      <input class="form-control" name="solution 6" placeholder="no name=' ' , no value when form is submitted"><br>
+      <label for="range">Solution 7</label><br>
+      <input class="form-control" type="color">
+      <input class="form-control" placeholder="type='color' brings up a color picker">
+      <input class="form-control" placeholder="type='number' means you can only enter numbers into a specified field, also adds a button that increases or decreases numbers by 1" type="number">
+      <input class="form-control" placeholder="type='url' means that input field is for the user to add a url">
+      <label for=text>Solution 8</label>
+      <input class="form-control" placeholder="$('#button').on('click', function() { sendData()  )};">
+      <label for=text>Solution 9</label>
+      <input class="form-control" placeholder="method='get|post' appends the user input to the url as name/value pairs">
+      <label for=text>Solution 10</label>
+      <input class="form-control" placeholder="type='radio' and type='checkbox' must have the value='attribute' to define what is submitted by either item">
+      <label for=text>Solution 11</label>
+      <input class="form-control" placeholder="preventDefault();">
       <button class="btn btn-primary">Submit</button>
     </form>
     <script type="text/javascript" src="./main.js"></script>
